@@ -1,7 +1,5 @@
 package com.wgorajek;
 
-import java.util.List;
-
 import static java.lang.Math.abs;
 
 public class Day06 extends Solution{
@@ -59,7 +57,7 @@ public class Day06 extends Solution{
 
 
     private Fishes getInput() {
-        final String input = getInpuString();
+        final String input = getInputString();
         Long[] fishCount = new Long[9];
         for (var i =0; i < fishCount.length; i++) {
             fishCount[i] = 0L;

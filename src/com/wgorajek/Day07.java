@@ -60,7 +60,7 @@ public class Day07 extends Solution{
 
 
     private List<Integer> getInput() {
-        final String input = getInpuString();
+        final String input = getInputString();
         List<Integer> crabList = new ArrayList<Integer>();
         for (var str: input.split(",")) {
             crabList.add(Integer.parseInt(str));

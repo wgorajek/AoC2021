@@ -30,7 +30,7 @@ public abstract class Solution {
         }
     }
 
-    protected String getInpuString() {
+    protected String getInputString() {
         try {
             return Files.readString(mInputPath);
         } catch (IOException e) {

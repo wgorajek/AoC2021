@@ -1,7 +1,6 @@
 package com.wgorajek;
 
 import java.util.ArrayList;
-import java.util.BitSet;
 import java.util.List;
 
 public class Day16 extends Solution{
@@ -166,7 +165,7 @@ public class Day16 extends Solution{
 
 
     public PacketLoader getInput() {
-        var inputHex = getInpuString();
+        var inputHex = getInputString();
         var inputBit = new StringBuilder();
         for (var c: inputHex.toCharArray()) {
             inputBit.append(hexToBit(c));

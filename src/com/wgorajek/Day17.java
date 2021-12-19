@@ -101,7 +101,7 @@ public class Day17 extends Solution{
     }
 
     public ShootingRange getInput() {
-        var input = getInpuString();
+        var input = getInputString();
         var target = new Target();
 
         Pattern pattern = Pattern.compile(".*x=(\\d+)..(\\d+), y=-(\\d+)..-(\\d+).*");
